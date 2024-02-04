@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --light-sky: #2d7bb1;
+    --white: #ffffff;
+    --dark-sky:#095185;
+}
+
+/******************** header css-start here*****************************************/
+header .logo img {
+    width: 110px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* width: 90%; */
+    margin: auto;
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+    align-items: center;
+}
+
+header .logo {
+    width: 20%;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+/******************** header css-end here*****************************************/
+
+
+.common-section {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    max-width: 1300px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 20px;
+}
+.common-frist-right {
+    width: 50%;
+}
+
+
+/****************** frist-section css-start here***********************************/
+.frist-section-right img {
+    width: 100%;
+}
+
+.container {
+    background-color: var(--light-sky);
+}
+
+.container .frist-section {
+    color: var(--white);
+    line-height: 1.5;
+}
+
+.frist-section .frist-section-left .fs-p1 {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.frist-section .frist-section-left h1 {
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.frist-section .frist-section-left .fs-p2 {
+    width: 50%;
+}
+.frist-section .frist-section-left .fs-p2{
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 20px;
+ }
+ .frist-section .frist-section-left h2{
+    font-weight: 500;
+    font-size: 27px;
+    padding: 5px 25px;
+    background: var(--white);
+    border-radius: 2px;
+    color: #1b4b70;
+    width: 60%;
+ }
+ .frist-section .frist-section-left .fs-p3{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 35px;
+ }
+ .frist-section .frist-section-left button{
+    background: var(--dark-sky);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    font-weight: 600;
+    border: none;
+ }
+/****************** frist-section css-end here***********************************/
